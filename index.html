@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DB API</title>
+    <!-- cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="text-center text-success mt-3" >The Players</h1>
+    <!--search button  -->
+    <div class="input-group w-50 mx-auto my-3">
+        <input id="InputId" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-search">
+        <button onclick="pLayerInput()" class="btn btn-outline-secondary" type="button" id="button-search">Search</button>
+      </div>
+
+      <!-- card -->
+      <div id="details" class="mx-auto p-5 " style="width: 500px;">
+        
+      </div>
+      <!-- spinner -->
+      <div class="d-flex justify-content-center">
+        <div class="spinner-border" role="status" id="spinnerId">
+         
+        </div>
+      </div>
+<!-- cards -->
+
+<div id="container" class="row row-cols-1 row-cols-md-3 mx-auto my-5 g-4">
+   
+  
+  </div>
+    <script src="app.js"></script>
+</body>
+</html>
